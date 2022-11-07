@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    /* display: block; */
+    
+}
+.container .mother{
+    width: 100%;
+    height: 30%;
+     display: flex;
+    justify-content: space-around;
+    /* flex-wrap: nowrap; */
+    /* background-color: aqua; */
+    gap: 20px;
+    
+}
+.container .mother .father{
+    width: 15%;
+    height: 60%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    
+}
+.container .mother .father .child {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    transition: .7s;
+    
+}
+.container .mother .father .child:hover{
+    transform: rotate(45deg);
+}
+
+.container .father1{
+    width: 15%;
+    height: 60%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container .father1 .child1 {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    transition: .7s;
+    
+}
+.container .father1  .child1:hover{
+    transform: rotateX(45deg);
+}
+.container .father2{
+    width: 15%;
+    height: 60%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container .father2 .child2 {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    transition: .7s;
+    
+}
+.container .father2  .child2:hover{
+    transform: rotatey(45deg);
+}
+.container .father3{
+    width: 15%;
+    height: 60%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container .father3 .child3 {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    transition: .7s;
+    
+}
+.container .father3  .child3:hover{
+    transform: rotatez(45deg);
+}
+.container .father4{
+    width: 15%;
+    height: 60%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container .father4 .child4 {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    transition: .7s;
+    
+}
+.container .father4  .child4:hover{
+    transform: scale(2);
+}
+.container .father5{
+    width: 15%;
+    height: 60%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container .father5 .child5 {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    transition: .7s;
+    
+}
+.container .father5  .child5:hover{
+    transform: scaleX(2);
+}
+.container .father6{
+    width: 15%;
+    height: 60%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container .father6 .child6 {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    transition: .7s;
+    
+}
+.container .father6  .child6:hover{
+    transform:scaley(2);
+}
+.container .father7{
+    width: 15%;
+    height: 60%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container .father7 .child7 {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    transition: .7s;
+    
+}
+.container .father7  .child7:hover{
+    transform:skew(45deg, 45deg);
+}
+/* .container .father8{
+    width: 10%;
+    height: 20%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container .father8 .child8 {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    transition: .7s;
+
+}
+.container .father8  .child8:hover{
+    transform:skewx(45deg);
+} */
+
+.container .brother{
+    width: 100%;
+    height: 30%;
+     display: flex;
+    justify-content: space-around;
+    /* flex-wrap: nowrap; */
+    /* background-color: aqua; */
+    /* gap: 20px; */
+}
+.container .brother .bro{
+    width: 15%;
+    height: 60%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+    
+}
+.container .brother .bro .child {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    transition: .7s;
+    
+}
+.container .brother .bro .child:hover{
+    transform: skewx(45deg);
+}
+.container .brother .bro1{
+    width: 15%;
+    height: 60%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+    
+}
+.container .brother .bro1 .child1 {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    transition: .7s;
+    
+}
+.container .brother .bro1 .child1:hover{
+    transform: skewy(45deg);
+}
+.container .brother .bro2{
+    width: 15%;
+    height: 60%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+    
+}
+.container .brother .bro2 .child2 {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    transition: .7s;
+    
+}
+.container .brother .bro2 .child2:hover{
+    transform: translate(45px);
+}
+.container .brother .bro3{
+    width: 15%;
+    height: 60%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+    
+}
+.container .brother .bro3 .child3 {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    transition: .7s;
+
+}
+.container .brother .bro3 .child3:hover{
+    transform: translateX(45px);
+}
+.container .brother .bro4{
+    width: 15%;
+    height: 60%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+    
+}
+.container .brother .bro4 .child4 {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    transition: .7s;
+
+}
+.container .brother .bro4 .child4:hover{
+    transform: translatey(45px);
+}
+.container .brother .bro5{
+    width: 15%;
+    height: 60%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+    
+}
+.container .brother .bro5 .childf {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    transition: .7s;
+
+}
+.container .brother .bro5 .childf:hover{
+    transform: matrix(2,2,0,2,45,0);
+}
